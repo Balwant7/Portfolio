@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import { AlignLeft } from "lucide-react";
+import { AlignLeft, GithubIcon, Linkedin } from "lucide-react";
+import { Github } from "lucide-react";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -17,23 +18,30 @@ const Navbar = () => {
   return (
     <>
       <div
-        className=" w-full h-[100vh] bg-[#3D3D3D] fixed right-[-100%] ease-in-out duration-500 z-10  "
+        className=" w-full h-[100vh] bg-[#3D3D3D] fixed right-[-100%] ease-in-out duration-500 z-10 px-5 pt-[7rem]"
         id="afternav"
         ref={afternav}
       >
-        <div className="text-4xl mt-[50%] ml-[25%] mb-[5rem]">
-          <h1 className="p-5 text-[#ffffff]">About</h1>
-          <h1 className="p-5 text-white">Projects</h1>
-          <h1 className="p-5 text-white">Resume</h1>
-          <h1 className="p-5 text-[#19182562]"> Contact</h1>
+        <div className="text-4xl mt-[50%] ml-[25%] mb-[3rem]">
+          <h1 className="p-3 text-[#ffffff]">About</h1>
+          <h1 className="p-3 text-white">Projects</h1>
+          <h1 className="p-3 text-white">Resume</h1>
+          <h1 className="p-3 text-white"> Contact</h1>
+          {/* <h1 className="p-5 text-[#19182562]"> Contact</h1> */}
         </div>
-        <div className=" flex  justify-center items-center gap-5">
-          <button className="rounded-3xl bg-white w-[10rem] h-[4rem] border">
-            Login
-          </button>
-          <button className="rounded-3xl bg-yellow-600 h-[4rem] w-[10rem] text-white ">
-            Sign Up
-          </button>
+        <div className=" flex  justify-center items-center gap-5 border-t-[1px]">
+          <Link
+            className="mt-5 bg-yellow-500 shadow-2xl p-3 rounded-full"
+            to="https://github.com/Balwant7"
+          >
+            <GithubIcon />
+          </Link>
+          <Link
+            className="mt-5 bg-yellow-500 shadow-2xl p-3 rounded-full"
+            to="https://www.linkedin.com/in/balwantsingh7"
+          >
+            <Linkedin />
+          </Link>
         </div>
       </div>
       <div
