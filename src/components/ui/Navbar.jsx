@@ -31,13 +31,13 @@ const Navbar = () => {
         </div>
         <div className=" flex  justify-center items-center gap-5 border-t-[1px]">
           <Link
-            className="mt-5 bg-yellow-500 shadow-2xl p-3 rounded-full"
+            className="mt-5 bg-purple-500 shadow-2xl p-3 rounded-full"
             to="https://github.com/Balwant7"
           >
             <GithubIcon />
           </Link>
           <Link
-            className="mt-5 bg-yellow-500 shadow-2xl p-3 rounded-full"
+            className="mt-5 bg-purple-500 shadow-2xl p-3 rounded-full"
             to="https://www.linkedin.com/in/balwantsingh7"
           >
             <Linkedin />
@@ -50,11 +50,11 @@ const Navbar = () => {
       >
         <div>leftlogo</div>
         <div className=" h-full hidden md:block">
-          <div className="flex gap-16 text-xl bg-[#3D3D3D] pr-[3rem] lg:pr-[10rem] h-full pl-2 justify-center items-center rounded-bl-2xl shadow-2xl ">
-            <Link className="hover:text-yellow-500">About</Link>
-            <Link className="hover:text-yellow-500">Projects</Link>
-            <Link className="hover:text-yellow-500">Resume</Link>
-            <Link className="hover:text-yellow-500">Contact</Link>
+          <div className="flex gap-16 text-xl bg-[#3D3D3D] pr-[3rem] lg:pr-[10rem] h-full pl-4 justify-center items-center rounded-bl-2xl shadow-2xl ">
+            <Link className="hover:text-purple-500">About</Link>
+            <Link className="hover:text-purple-500">Projects</Link>
+            <Link className="hover:text-purple-500">Resume</Link>
+            <Link className="hover:text-purple-500">Contact</Link>
           </div>
         </div>
         <div id="navicon" className="md:hidden z-20">
