@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <>
       <div
-        className=" w-full h-[100vh] bg-[#3D3D3D] fixed right-[-100%] ease-in-out duration-500 z-10 px-5 pt-[7rem]"
+        className=" w-full h-[100vh] bg-[#3D3D3D] fixed right-[-100%] ease-in-out duration-[0.8s] z-10 px-5 pt-[7rem]"
         id="afternav"
         ref={afternav}
       >
