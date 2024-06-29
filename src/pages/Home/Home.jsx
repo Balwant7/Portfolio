@@ -8,12 +8,12 @@ const Home = () => {
         <div className="bg-black w-full h-[100vh] " id="spline">
           <Spline scene="https://prod.spline.design/gG1bWosuYzFTV9RX/scene.splinecode" />
         </div>
-        <div className=" absolute top-[15%] md:top-[30%] left-[10%] md:left-[25%]">
-          <h1 className="text-[5rem] md:text-[7rem] text-white font-bold">
-            Hii👏 I'm{" "}
+        <div className=" absolute top-[15%] md:top-[30%] left-[7%] md:left-[25%]">
+          <h1 className="text-[4.2rem] md:text-[7rem] text-white font-bold">
+            Hii👏 I'm
             <span className="text-purple-500 underline underline-offset-8 decoration-2 decoration-white">
               Balwant
-            </span>{" "}
+            </span>
             <br />
             Web Developer
           </h1>
