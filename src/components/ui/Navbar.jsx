@@ -48,7 +48,11 @@ const Navbar = () => {
         id="navbar"
         className="flex items-center justify-between w-full md:pl-[10rem] px-10 md:px-0 h-[5rem] bg-black text-white relative"
       >
-        <div>leftlogo</div>
+        <div className="mt-5">
+          <Link to="/">
+            <img src="./logos/favicon.png" alt="" className="w-[7rem]" />
+          </Link>
+        </div>
         <div className=" h-full hidden md:block">
           <div className="flex gap-16 text-xl bg-[#3D3D3D] pr-[3rem] lg:pr-[10rem] h-full pl-4 justify-center items-center rounded-bl-2xl shadow-2xl ">
             <Link className="hover:text-purple-500">About</Link>
