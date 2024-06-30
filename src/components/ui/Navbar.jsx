@@ -57,7 +57,9 @@ const Navbar = () => {
           <div className="flex gap-16 text-xl bg-[#3D3D3D] pr-[3rem] lg:pr-[10rem] h-full pl-4 justify-center items-center rounded-bl-2xl shadow-2xl ">
             <Link className="hover:text-purple-500">About</Link>
             <Link className="hover:text-purple-500">Projects</Link>
-            <Link className="hover:text-purple-500">Resume</Link>
+            <Link className="hover:text-purple-500" to="/resume">
+              Resume
+            </Link>
             <Link className="hover:text-purple-500">Contact</Link>
           </div>
         </div>

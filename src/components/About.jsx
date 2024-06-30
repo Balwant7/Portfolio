@@ -11,7 +11,7 @@ const About = () => {
           </span>
           me
         </h1>
-        <p className="text-white text-[1.3rem] pr-4 md:pr-10 lg:pr-24">
+        <p className="text-white text-[1.3rem] md:pr-10 lg:pr-24">
           I'm a web developer with hands-on experience in React.js. I recently
           completed a 3-month internship, where I contributed to building
           dynamic and responsive web applications. <br />
@@ -32,7 +32,7 @@ const About = () => {
         >
           <div
             id="webdevelopemnt"
-            className="bg-[#3D3D3D] rounded-lg p-7 flex gap-5"
+            className="bg-[#3D3D3D] rounded-lg p-7 flex gap-5 items-center justify-center"
           >
             <span>
               <svg
@@ -101,7 +101,7 @@ const About = () => {
           </div>
           <div
             id="websitedesign"
-            className="text-white bg-[#3D3D3D] rounded-lg p-7 flex gap-5"
+            className="text-white bg-[#3D3D3D] rounded-lg p-7 flex gap-5 items-center justify-center"
           >
             <span>
               <svg
