@@ -10,14 +10,13 @@ const Home = () => {
         <Navbar />
         <div className="relative" id="home">
           <div className="bg-black w-full h-[100vh] " id="spline">
-            <Spline scene="https://prod.spline.design/ljpNZWVkkKzCQNVF/scene.splinecode" />
+            <Spline scene="https://prod.spline.design/14pd7ty6oVY0SAQB/scene.splinecode" />
           </div>
-          <div className=" absolute top-[15%] md:top-[30%] left-[7%] md:left-[25%]">
-            <h1 className="text-[4.2rem] md:text-[7rem] text-white font-bold">
+          <div className=" absolute top-[22%] md:top-[30%] left-[7%] md:left-[25%]">
+            <h1 className="text-[4.2rem] md:text-[7rem] text-white font-semibold leading-[5.5rem] md:leading-normal">
               Hii👋 I'm
               <span className="text-white "> Balwant</span>
-              <br />
-              Web Developer
+              <br />a Web Developer
             </h1>
           </div>
         </div>

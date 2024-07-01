@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
 * {
   margin: 0px;
   padding: 0px;
@@ -10,7 +13,7 @@
   font-weight: 500;
   font-style: normal;
 }
-/* #home div h1 {
-  -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: rgb(206, 75, 206);
-} */
+#home div h1 {
+  /* -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: rgb(206, 75, 206); */
+}
