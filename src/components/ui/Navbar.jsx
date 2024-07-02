@@ -50,7 +50,7 @@ const Navbar = () => {
       </div>
       <div
         id="navbar"
-        className="flex items-center justify-between w-full md:pl-[10rem] px-10 md:px-0 h-[5rem] bg-black text-white relative"
+        className="flex items-center justify-between w-full md:pl-[3rem] lg:pl-[10rem] px-10 md:px-0 h-[5rem] bg-black text-white relative"
       >
         <div className="mt-5">
           <Link to="/">
