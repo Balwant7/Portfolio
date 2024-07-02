@@ -7,7 +7,6 @@ const Home = () => {
   return (
     <>
       <div id="hoemwrap" className="bg-black">
-        <Navbar />
         <div className="relative" id="home">
           <div className="bg-black w-full h-[100vh] " id="spline">
             <Spline scene="https://prod.spline.design/14pd7ty6oVY0SAQB/scene.splinecode" />

@@ -13,11 +13,17 @@ import Resume from "./pages/resume/Resume.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
-  },
-  {
-    path: "/resume",
-    element: <Resume />,
+    element: <App />,
+    children: [
+      {
+        path: "",
+        element: <Home />,
+      },
+      {
+        path: "resume",
+        element: <Resume />,
+      },
+    ],
   },
 ]);
 

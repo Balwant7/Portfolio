@@ -23,9 +23,13 @@ const Navbar = () => {
         ref={afternav}
       >
         <div className="text-4xl mt-[50%] ml-[25%] mb-[3rem]">
-          <h1 className="p-3 text-[#ffffff]">About</h1>
+          <Link className="p-3 text-[#ffffff]" to="/" onClick={handleicon}>
+            About
+          </Link>
           <h1 className="p-3 text-white">Projects</h1>
-          <h1 className="p-3 text-white">Resume</h1>
+          <Link to="/resume" className="p-3 text-white" onClick={handleicon}>
+            Resume
+          </Link>
           <h1 className="p-3 text-white"> Contact</h1>
           {/* <h1 className="p-5 text-[#19182562]"> Contact</h1> */}
         </div>

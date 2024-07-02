@@ -18,6 +18,24 @@ const Resume = () => {
             </span>
             ume
           </h1>
+
+          <div id="eduaction">
+            <span className="flex ml-20 gap-4 items-center">
+              <GraduationCap size={40} color="#a855f7" />
+              <h1 className="text-3xl text-white">Education</h1>
+            </span>
+            <div id="graduation" className="ml-[8.5rem] mt-4">
+              <ul className="list-disc decoration-purple-500 text-white">
+                <li>
+                  <h1 className="text-xl text-white">
+                    {" "}
+                    Bachelor of Engineering (Mumbai Unversity)
+                  </h1>
+                </li>
+              </ul>
+              <p className="text-white text-sm">2019-2023</p>
+            </div>
+          </div>
         </div>
       </div>
     </>
