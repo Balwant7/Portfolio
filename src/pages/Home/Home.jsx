@@ -9,7 +9,7 @@ const Home = () => {
       <div id="hoemwrap" className="bg-black">
         <div className="relative" id="home">
           <div className="bg-black w-full h-[100vh] " id="spline">
-            <Spline scene="https://prod.spline.design/YuByQZKyEYtOHCVo/scene.splinecode" />
+            <Spline scene="https://prod.spline.design/ItsTVJmUbwwDUhR0/scene.splinecode" />
           </div>
           <div className=" absolute top-[22%] md:top-[15%] lg:top-[30%] left-[14%] md:left-[25%]">
             <h1 className="text-[4.2rem] md:text-[6rem] lg:text-[7rem] text-white font-semibold leading-[5.5rem] md:leading-normal">
