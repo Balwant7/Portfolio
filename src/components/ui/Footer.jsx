@@ -10,12 +10,14 @@ const Footer = () => {
           <h1 className="text-white text-[8rem] md:text-[10rem]">LET'S TALK</h1>
         </div>
       </div>
-      <div className="bg-black flex gap-8 p-5 pt-10">
+      <div className="bg-black flex gap-8 p-5 pt-10" id="footer_social">
         <Link to="https://github.com/Balwant7">
-          <button className="bg-white rounded-full px-7 py-3">Github</button>
+          <button className="">Github</button>
+          {/* <button className="bg-white rounded-full px-7 py-3">Github</button> */}
         </Link>
         <Link to="https://www.linkedin.com/in/balwantsingh7">
-          <button className="bg-white rounded-full px-7 py-3">Linkden</button>
+          {/* <button className="bg-white rounded-full px-7 py-3">Linkden</button> */}
+          <button className="">Linkden</button>
         </Link>
       </div>
     </div>
