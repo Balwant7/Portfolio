@@ -9,7 +9,10 @@ const Resume = () => {
         id="resume"
         className="bg-black w-full h-[100vh] flex items-center justify-center"
       >
-        <div id="resumewrapper" className="bg-[#3D3D3D] w-[90%] rounded-lg">
+        <div
+          id="resumewrapper"
+          className="bg-[#3D3D3D] w-[90%] rounded-lg pb-10"
+        >
           <h1 className="text-white mb-5 text-[3rem] p-8 md:pl-12">
             <span className=" underline underline-offset-8 decoration-[#0443F2] ">
               Res
@@ -52,8 +55,29 @@ const Resume = () => {
               <p className="text-white text-sm">03/2024 - 06/2024</p>
             </div>
           </div>
-          <div id="skills">
-            <h1 className="text-white">Skills</h1>
+          <div
+            id="skills"
+            className="w-full ml-[2rem] md:ml-[4.5rem] mt-[4rem]"
+          >
+            <h1 className="text-white text-[2rem]">My Skills</h1>
+            <div className="w-[90%] mt-7">
+              <h2 className="text-white mb-2">FrontEnd Development</h2>
+              <div className="w-full rounded-lg h-3 bg-white">
+                <div className="w-[85%] h-3 bg-[#0443F2] rounded-lg"></div>
+              </div>
+            </div>
+            <div className="w-[90%] mt-7">
+              <h2 className="text-white mb-2">Backend Development</h2>
+              <div className="w-full rounded-lg h-3 bg-white">
+                <div className="w-[70%] h-3 bg-[#0443F2] rounded-lg"></div>
+              </div>
+            </div>
+            <div className="w-[90%] mt-7">
+              <h2 className="text-white mb-2">Data base</h2>
+              <div className="w-full rounded-lg h-3 bg-white">
+                <div className="w-[60%] h-3 bg-[#0443F2] rounded-lg"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

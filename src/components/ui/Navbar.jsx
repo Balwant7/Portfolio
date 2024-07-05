@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { AlignLeft, GithubIcon, Linkedin } from "lucide-react";
 import { Github } from "lucide-react";
+import Cursor from "./Cursor";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -17,12 +18,13 @@ const Navbar = () => {
   };
   return (
     <>
+      <Cursor />
       <div
         className=" w-full h-[100vh] bg-[#3D3D3D] fixed right-[-100%] ease-in-out duration-[0.8s] z-10 px-5 pt-[7rem]"
         id="afternav"
         ref={afternav}
       >
-        <div className="text-4xl mt-[50%] ml-[25%] mb-[3rem]">
+        <div className="text-4xl mt-[60%] ml-[25%] mb-[3rem]">
           <Link className="p-3 text-[#ffffff]" to="/" onClick={handleicon}>
             About
           </Link>
@@ -35,13 +37,13 @@ const Navbar = () => {
         </div>
         <div className=" flex  justify-center items-center gap-5 border-t-[1px]">
           <Link
-            className="mt-5 bg-purple-500 shadow-2xl p-3 rounded-full"
+            className="mt-5 bg-[#0443F2] shadow-2xl p-3 rounded-full text-white"
             to="https://github.com/Balwant7"
           >
             <GithubIcon />
           </Link>
           <Link
-            className="mt-5 bg-purple-500 shadow-2xl p-3 rounded-full"
+            className="mt-5 bg-[#0443F2] shadow-2xl p-3 rounded-full text-white"
             to="https://www.linkedin.com/in/balwantsingh7"
           >
             <Linkedin />
@@ -59,12 +61,12 @@ const Navbar = () => {
         </div>
         <div className=" h-full hidden md:block">
           <div className="flex gap-16 text-xl bg-[#3D3D3D] pr-[3rem] lg:pr-[10rem] h-full pl-4 justify-center items-center rounded-bl-2xl shadow-2xl ">
-            <Link className="hover:text-purple-500">About</Link>
-            <Link className="hover:text-purple-500">Projects</Link>
-            <Link className="hover:text-purple-500" to="/resume">
+            <Link className="hover:text-[#0443F2] text-white">About</Link>
+            <Link className="hover:text-[#0443F2] text-white">Projects</Link>
+            <Link className="hover:text-[#0443F2] text-white" to="/resume">
               Resume
             </Link>
-            <Link className="hover:text-purple-500">Contact</Link>
+            <Link className="hover:text-[#0443F2] text-white">Contact</Link>
           </div>
         </div>
         <div id="navicon" className="md:hidden z-20">

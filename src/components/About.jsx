@@ -6,7 +6,7 @@ const About = () => {
     <div id="about" className="px-4 md:px-10 mt-10 pb-5">
       <div id="para" className="">
         <h1 className="text-white mb-5 text-[3rem] ">
-          <span className=" underline underline-offset-8 decoration-purple-500 ">
+          <span className=" underline underline-offset-8 decoration-[#0443F2] ">
             About{" "}
           </span>
           me
@@ -40,7 +40,7 @@ const About = () => {
                 viewBox="0 0 24 24"
                 width={60}
                 height={60}
-                color={"#a855f7"}
+                color={"#0443F2"}
                 fill={"none"}
               >
                 <path
@@ -109,7 +109,7 @@ const About = () => {
                 viewBox="0 0 24 24"
                 width={60}
                 height={60}
-                color={"#a855f7"}
+                color={"#0443F2"}
                 fill={"none"}
               >
                 <path

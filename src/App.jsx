@@ -1,10 +1,11 @@
 import { useState } from "react";
-import "./App.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/ui/Navbar";
 import Home from "./pages/Home/Home";
 import Footer from "./components/ui/Footer";
 import { Outlet } from "react-router-dom";
-// import "bootstrap/dist/css/bootstrap.min.css";
+
+import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);

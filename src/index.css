@@ -13,6 +13,10 @@
   font-weight: 500;
   font-style: normal;
 }
+a {
+  text-decoration: none !important;
+}
+
 #home div h1 {
   /* -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: rgb(206, 75, 206); */
