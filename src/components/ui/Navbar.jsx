@@ -62,7 +62,9 @@ const Navbar = () => {
         <div className=" h-full hidden md:block">
           <div className="flex gap-16 text-xl bg-[#3D3D3D] pr-[3rem] lg:pr-[10rem] h-full pl-4 justify-center items-center rounded-bl-2xl shadow-2xl ">
             <Link className="hover:text-[#0443F2] text-white">About</Link>
-            <Link className="hover:text-[#0443F2] text-white">Projects</Link>
+            <Link to="/project" className="hover:text-[#0443F2] text-white">
+              Projects
+            </Link>
             <Link className="hover:text-[#0443F2] text-white" to="/resume">
               Resume
             </Link>

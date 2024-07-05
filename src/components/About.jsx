@@ -3,7 +3,7 @@ import websiteDesign from "/icons/websiteDesig.svg";
 
 const About = () => {
   return (
-    <div id="about" className="px-4 md:px-10 mt-10 pb-5">
+    <div id="about" className="px-4 md:px-10 mt-10 pb-[5rem] md:pb-[15rem]">
       <div id="para" className="">
         <h1 className="text-white mb-5 text-[3rem] ">
           <span className=" underline underline-offset-8 decoration-[#0443F2] ">
@@ -28,11 +28,11 @@ const About = () => {
         <h1 className="text-white text-3xl">What I'm doing</h1>
         <div
           id="sec"
-          className="flex justify-evenly items-center mt-10 flex-wrap gap-4"
+          className="flex justify-evenly items-center mt-10 flex-wrap gap-4 mt-[4rem]"
         >
           <div
             id="webdevelopemnt"
-            className="bg-[#3D3D3D] rounded-lg p-7 flex gap-5 items-center justify-center"
+            className="bg-[#3D3D3D] rounded-lg p-7 flex gap-5 items-center justify-center "
           >
             <span>
               <svg

@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div id="footer" className="w-full bg-black h-[50vh] pt-20">
-      <div className="h-full w-full flex flex-col pt-[4rem] items-center justify-center">
+    <div id="footer" className="w-full bg-black  pt-10 px-[2rem] md:px-[5rem]">
+      <div className="h-full w-full flex flex-col pt-[4rem] items-center justify-center border-t-[0.5px]">
         <div className="flex flex-col justify-center items-center w-full h-full px-20 md:px-10 ">
           <h3 className="text-white  left">Have a project in mind?</h3>
           <h1 className="text-white text-[7rem] md:text-[10rem]">LET'S TALK</h1>

@@ -7,7 +7,7 @@ const Resume = () => {
     <>
       <div
         id="resume"
-        className="bg-black w-full h-[100vh] flex items-center justify-center"
+        className="bg-black w-full  flex items-center justify-center pt-16 pb-24"
       >
         <div
           id="resumewrapper"
