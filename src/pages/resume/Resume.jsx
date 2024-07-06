@@ -1,13 +1,14 @@
 import React from "react";
 import { GraduationCap, BookOpen } from "lucide-react";
 import ProgressBar from "react-bootstrap/ProgressBar";
+import { Link } from "react-router-dom";
 
 const Resume = () => {
   return (
     <>
       <div
         id="resume"
-        className="bg-black w-full  flex items-center justify-center pt-16 pb-24"
+        className="bg-black w-full flex-col  flex items-center justify-center pt-16 pb-24"
       >
         <div
           id="resumewrapper"
@@ -57,7 +58,7 @@ const Resume = () => {
           </div>
           <div
             id="skills"
-            className="w-full ml-[2rem] md:ml-[4.5rem] mt-[4rem]"
+            className="w-full ml-[1rem] md:ml-[4.5rem] mt-[4rem]"
           >
             <h1 className="text-white text-[2rem]">My Skills</h1>
             <div className="w-[90%] mt-7">
@@ -80,6 +81,12 @@ const Resume = () => {
             </div>
           </div>
         </div>
+
+        <button className="text-white bg-[#0443F2] px-4 py-3 mt-16 rounded-sm active:bg-[#203777]">
+          <a href="./Balwant_Singh_Resume.pdf" download="Balwant's resume">
+            Download Resume
+          </a>
+        </button>
       </div>
     </>
   );

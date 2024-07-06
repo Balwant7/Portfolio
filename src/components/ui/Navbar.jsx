@@ -24,15 +24,19 @@ const Navbar = () => {
         id="afternav"
         ref={afternav}
       >
-        <div className="text-4xl mt-[60%] ml-[25%] mb-[3rem]">
+        <div className="text-4xl mt-[60%] ml-[25%] mb-[3rem] flex flex-col">
           <Link className="p-3 text-[#ffffff]" to="/" onClick={handleicon}>
             About
           </Link>
-          <h1 className="p-3 text-white">Projects</h1>
+          <Link className="p-3 text-white" to="/project" onClick={handleicon}>
+            Projects
+          </Link>
           <Link to="/resume" className="p-3 text-white" onClick={handleicon}>
             Resume
           </Link>
-          <h1 className="p-3 text-white"> Contact</h1>
+          <Link className="p-3 text-white" onClick={handleicon}>
+            Contact
+          </Link>
           {/* <h1 className="p-5 text-[#19182562]"> Contact</h1> */}
         </div>
         <div className=" flex  justify-center items-center gap-5 border-t-[1px]">

@@ -56,3 +56,11 @@ a {
   color: rgb(255, 255, 255);
   z-index: 999;
 }
+
+#projects #eyeicon {
+  display: none;
+}
+#projlist:hover #eyeicon {
+  display: block;
+  transition: all ease-in-out;
+}
