@@ -27,7 +27,7 @@ const Project = () => {
     <>
       <div
         id="projects"
-        className="bg-black h-[100vh] w-full  flex items-center justify-center pt-[20rem] lg:pt-16 pb-24 "
+        className="bg-black w-full  flex items-center justify-center pt-16 pb-24 "
       >
         <div className="bg-[#3D3D3D] w-[90%] rounded-lg ">
           <h1 className="text-white mb-5 text-[3rem] p-8 md:pl-12">
@@ -40,7 +40,7 @@ const Project = () => {
             {projectss.map((p, i) => {
               return (
                 <div
-                  className="bg-black  w-[27rem] rounded-lg relative mb-10"
+                  className="bg-black  w-[27rem] rounded-lg relative mb-[8rem]"
                   key={i}
                 >
                   <Link id="projlist" className="" to={p.link} target="_blank">
