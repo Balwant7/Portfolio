@@ -36,7 +36,7 @@ const Project = () => {
             </span>
             cts
           </h1>
-          <div className="flex flex-wrap px-3 md:px-10 lg:gap-[10rem]">
+          <div className="flex flex-wrap px-3 md:px-10 lg:gap-[10rem] justify-center">
             {projectss.map((p, i) => {
               return (
                 <div
@@ -56,9 +56,12 @@ const Project = () => {
                       className="w-full h-full rounded-lg hover:blur-sm transition ease-in-out"
                     />
                   </Link>
-                  <h1 className="text-center text-2xl text-white mt-4">
+                  <Link
+                    className="text-center text-2xl text-white mt-3 flex mb-1 justify-center"
+                    to={p.link}
+                  >
                     {p.name}
-                  </h1>
+                  </Link>
                   <h2 className="text-white text-center">{p.desc}</h2>
                 </div>
               );
