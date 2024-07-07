@@ -64,3 +64,22 @@ a {
   display: block;
   transition: all ease-in-out;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+  background: #0443f2;
+} */
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0443f2;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #021f6e;
+}
