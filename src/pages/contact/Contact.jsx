@@ -28,7 +28,7 @@ const Contact = () => {
               <Mail color="white" />
             </span>
             <p className="text-lg lg:text-xl text-white">
-              <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSDbFctjTJpjfnHzgVdlJrdphJPvwkwVxJScJTMspnpxzkdvWCTtqBgpPNRpTXHnfxzFBcJC">
+              <a href="mailto:singhbalwant168@gmail.com">
                 singhbalwant168@gmail.com
               </a>
             </p>

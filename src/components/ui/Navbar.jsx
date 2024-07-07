@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { AlignLeft, GithubIcon, Linkedin } from "lucide-react";
 import { Github } from "lucide-react";
 import Cursor from "./Cursor";
@@ -65,16 +65,38 @@ const Navbar = () => {
         </div>
         <div className=" h-full hidden md:block">
           <div className="flex gap-16 text-xl bg-[#3D3D3D] pr-[3rem] lg:pr-[10rem] h-full pl-4 justify-center items-center rounded-bl-2xl shadow-2xl ">
-            <Link className="hover:text-[#0443F2] text-white">About</Link>
-            <Link to="/project" className="hover:text-[#0443F2] text-white">
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                `${isActive ? "text-[#486cce]" : "text-white"}`
+              }
+            >
+              About
+            </NavLink>
+            <NavLink
+              to="/project"
+              className={({ isActive }) =>
+                `${isActive ? "text-[#486cce]" : "text-white"}`
+              }
+            >
               Projects
-            </Link>
-            <Link className="hover:text-[#0443F2] text-white" to="/resume">
+            </NavLink>
+            <NavLink
+              className={({ isActive }) =>
+                `${isActive ? "text-[#486cce]" : "text-white"}`
+              }
+              to="/resume"
+            >
               Resume
-            </Link>
-            <Link to="/contact" className="hover:text-[#0443F2] text-white">
+            </NavLink>
+            <NavLink
+              to="/contact"
+              className={({ isActive }) =>
+                `${isActive ? "text-[#486cce]" : "text-white"}`
+              }
+            >
               Contact
-            </Link>
+            </NavLink>
           </div>
         </div>
         <div id="navicon" className="md:hidden z-20">
