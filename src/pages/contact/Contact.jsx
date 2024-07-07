@@ -14,7 +14,7 @@ const Contact = () => {
           </span>
           act
         </h1>
-        <div className="flex flex-wrap pl-[1rem] lg:pl-[4rem]  flex-col items-start">
+        <div className="flex flex-wrap pl-[0.4rem] lg:pl-[4rem]  flex-col items-start">
           <div className="flex gap-2 p-4 justify-center items-center">
             <span className="bg-black rounded-full p-3 md:p-4">
               <Phone color="white" />
@@ -28,7 +28,9 @@ const Contact = () => {
               <Mail color="white" />
             </span>
             <p className="text-lg lg:text-xl text-white">
-              singhbalwant168@gmail.com
+              <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSDbFctjTJpjfnHzgVdlJrdphJPvwkwVxJScJTMspnpxzkdvWCTtqBgpPNRpTXHnfxzFBcJC">
+                singhbalwant168@gmail.com
+              </a>
             </p>
           </div>
           <div className="flex gap-2 p-4 justify-center items-center">
