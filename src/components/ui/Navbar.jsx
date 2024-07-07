@@ -34,7 +34,7 @@ const Navbar = () => {
           <Link to="/resume" className="p-3 text-white" onClick={handleicon}>
             Resume
           </Link>
-          <Link className="p-3 text-white" onClick={handleicon}>
+          <Link to="/contact" className="p-3 text-white" onClick={handleicon}>
             Contact
           </Link>
           {/* <h1 className="p-5 text-[#19182562]"> Contact</h1> */}
@@ -72,7 +72,9 @@ const Navbar = () => {
             <Link className="hover:text-[#0443F2] text-white" to="/resume">
               Resume
             </Link>
-            <Link className="hover:text-[#0443F2] text-white">Contact</Link>
+            <Link to="/contact" className="hover:text-[#0443F2] text-white">
+              Contact
+            </Link>
           </div>
         </div>
         <div id="navicon" className="md:hidden z-20">

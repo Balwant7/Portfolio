@@ -17,7 +17,7 @@ const Footer = () => {
         </Link>
         <Link to="https://www.linkedin.com/in/balwantsingh7">
           {/* <button className="bg-white rounded-full px-7 py-3">Linkden</button> */}
-          <button className="">Linkden</button>
+          <button className="">Linkedln</button>
         </Link>
       </div>
     </div>
