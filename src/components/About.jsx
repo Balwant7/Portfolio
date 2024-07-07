@@ -28,11 +28,11 @@ const About = () => {
         <h1 className="text-white text-3xl">What I'm doing</h1>
         <div
           id="sec"
-          className="flex justify-evenly items-center mt-10 flex-wrap gap-4 mt-[4rem]"
+          className="flex justify-evenly items-center flex-wrap gap-4 mt-[4rem]"
         >
           <div
             id="webdevelopemnt"
-            className="bg-[#3D3D3D] rounded-lg p-7 flex gap-5 items-center justify-center "
+            className="bg-[#3D3D3D] rounded-lg p-7 flex gap-5 items-center justify-center w-[40rem] h-[8rem] "
           >
             <span>
               <svg
@@ -101,7 +101,7 @@ const About = () => {
           </div>
           <div
             id="websitedesign"
-            className="text-white bg-[#3D3D3D] rounded-lg p-7 flex gap-5 items-center justify-center"
+            className="text-white bg-[#3D3D3D] rounded-lg p-7 flex gap-5 items-center justify-center w-[40rem] h-[8rem]"
           >
             <span>
               <svg

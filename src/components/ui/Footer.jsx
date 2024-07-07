@@ -10,15 +10,25 @@ const Footer = () => {
           <h1 className="text-white text-[7rem] md:text-[10rem]">LET'S TALK</h1>
         </div>
       </div>
-      <div className="bg-black flex gap-8 p-8 pt-12" id="footer_social">
-        <Link to="https://github.com/Balwant7">
-          <button className="">Github</button>
-          {/* <button className="bg-white rounded-full px-7 py-3">Github</button> */}
-        </Link>
-        <Link to="https://www.linkedin.com/in/balwantsingh7">
-          {/* <button className="bg-white rounded-full px-7 py-3">Linkden</button> */}
-          <button className="">Linkedln</button>
-        </Link>
+      <div
+        className="bg-black flex p-4 lg:p-8 pt-12 justify-between items-center flex-wrap"
+        id="footer_social"
+      >
+        <div className="flex gap-8 justify-evenly items-center flex-wrap">
+          <Link to="https://github.com/Balwant7">
+            <button className="">Github</button>
+            {/* <button className="bg-white rounded-full px-7 py-3">Github</button> */}
+          </Link>
+          <Link to="https://www.linkedin.com/in/balwantsingh7">
+            {/* <button className="bg-white rounded-full px-7 py-3">Linkden</button> */}
+            <button className="">Linkedln</button>
+          </Link>
+        </div>
+        <div className="mt-6">
+          <p className="text-white text-sm">
+            Designed and Developed by Balwant Singh
+          </p>
+        </div>
       </div>
     </div>
   );

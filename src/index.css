@@ -21,7 +21,7 @@ a {
   /* -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: rgb(206, 75, 206); */
 }
-#footer_social a {
+#footer_social > div > a {
   padding: 15px 25px;
   font-size: 20px;
   border: 1px solid rgba(0, 0, 0, 0.178);
@@ -34,7 +34,7 @@ a {
   overflow: hidden;
   font-weight: 500;
 }
-#footer_social a::after {
+#footer_social > div > a::after {
   content: "";
   height: 100%;
   width: 100%;
@@ -47,12 +47,12 @@ a {
   z-index: -9;
 }
 
-#footer_social a:hover::after {
+#footer_social > div > a:hover::after {
   bottom: 0%;
   border-radius: 0%;
 }
 
-#footer_social a:hover {
+#footer_social > div > a:hover {
   color: rgb(255, 255, 255);
   z-index: 999;
 }
