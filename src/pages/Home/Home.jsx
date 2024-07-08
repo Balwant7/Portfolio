@@ -10,7 +10,7 @@ const Home = () => {
           <div className="bg-black w-full h-[85vh] " id="spline">
             <Spline scene="https://prod.spline.design/ItsTVJmUbwwDUhR0/scene.splinecode" />
           </div>
-          <div className=" absolute top-[22%] md:top-[15%] lg:top-[30%] left-[14%] md:left-[25%]">
+          <div className=" absolute left-[50%] top-[50%]">
             <h1 className="text-[4rem] md:text-[6rem] lg:text-[7rem] text-white ">
               Hii👋 I'm
               <span className="text-white"> Balwant</span>
