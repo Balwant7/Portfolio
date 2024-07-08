@@ -31,7 +31,7 @@ const Resume = () => {
                 <li>
                   <h1 className="text-xl text-white">
                     {" "}
-                    Bachelor of Engineering (Mumbai Unversity)
+                    Bachelor of Engineering (Mumbai University)
                   </h1>
                 </li>
               </ul>
