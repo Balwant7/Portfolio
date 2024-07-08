@@ -1,6 +1,5 @@
 import React from "react";
 import Spline from "@splinetool/react-spline";
-import Navbar from "../../components/ui/Navbar";
 import About from "../../components/About";
 
 const Home = () => {
@@ -8,7 +7,7 @@ const Home = () => {
     <>
       <div id="hoemwrap" className="bg-black">
         <div className="relative" id="home">
-          <div className="bg-black w-full h-[80vh] " id="spline">
+          <div className="bg-black w-full h-[85vh] " id="spline">
             <Spline scene="https://prod.spline.design/ItsTVJmUbwwDUhR0/scene.splinecode" />
           </div>
           <div className=" absolute top-[22%] md:top-[15%] lg:top-[30%] left-[14%] md:left-[25%]">
