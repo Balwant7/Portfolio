@@ -1,6 +1,5 @@
 import React from "react";
 import { GraduationCap, BookOpen } from "lucide-react";
-import ProgressBar from "react-bootstrap/ProgressBar";
 import { Link } from "react-router-dom";
 
 const Resume = () => {
@@ -82,7 +81,7 @@ const Resume = () => {
           </div>
         </div>
 
-        <button className="text-white bg-[#0443F2] px-4 py-3 mt-16 rounded-sm active:bg-[#203777]">
+        <button className="text-white bg-[#0443F2] px-4 py-3 mt-16 rounded-lg active:bg-[#203777]">
           <a href="./Balwant_Singh_Resume.pdf" download="Balwant's resume">
             Download Resume
           </a>
