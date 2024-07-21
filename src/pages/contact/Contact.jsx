@@ -1,11 +1,12 @@
 import React from "react";
 import { Phone, Mail, MapPin } from "lucide-react";
+import Map from "../../components/Map";
 
 const Contact = () => {
   return (
     <div
       id="projects"
-      className="bg-black w-full  flex items-center justify-center pt-16 pb-24 "
+      className="bg-black w-full flex items-center justify-center pt-16 pb-24 flex-col "
     >
       <div className="bg-[#3D3D3D] w-[90%] rounded-lg pb-8">
         <h1 className="text-white mb-5 text-[3rem] p-8 md:pl-12">
@@ -37,9 +38,14 @@ const Contact = () => {
             <span className="bg-black rounded-full p-3 md:p-4">
               <MapPin color="white" />
             </span>
-            <p className="text-lg lg:text-xl text-white">Mumbai, Maharashtra</p>
+            <p className="text-lg lg:text-xl text-white">
+              Navi Mumbai, Maharashtra
+            </p>
           </div>
         </div>
+      </div>
+      <div className="w-[90%] rounded-lg pb-8 mt-10">
+        <Map />
       </div>
     </div>
   );
