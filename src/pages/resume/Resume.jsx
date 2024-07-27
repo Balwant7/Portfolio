@@ -42,7 +42,16 @@ const Resume = () => {
               <BookOpen size={40} color="#0443F2" />
               <h1 className="text-3xl text-white">Experience</h1>
             </span>
-            <div id="experinece" className="ml-[6rem] md:ml-[8.5rem] mt-4">
+            <div id="openleaf" className="ml-[6rem] md:ml-[8.5rem] mt-4">
+              <ul className="list-disc  text-white">
+                <li>
+                  <h1 className="text-xl text-white">Openleaf</h1>
+                </li>
+              </ul>
+              <p className="text-white my-2">FrontEnd Developer Intern</p>
+              <p className="text-white text-sm">07/2024 - Present</p>
+            </div>
+            <div id="agix" className="ml-[6rem] md:ml-[8.5rem] mt-4">
               <ul className="list-disc  text-white">
                 <li>
                   <h1 className="text-xl text-white">
