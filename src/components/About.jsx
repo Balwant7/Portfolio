@@ -1,5 +1,4 @@
-import React from "react";
-import websiteDesign from "/icons/websiteDesig.svg";
+
 
 const About = () => {
   return (
