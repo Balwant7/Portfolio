@@ -22,6 +22,12 @@ const Project = () => {
       img: "./images/projectsimg/myntraProject.png",
       link: "https://myntraclone-nu.vercel.app/",
     },
+    {
+      name: "Tomato Food Delivery",
+      desc: "E-commerce Website",
+      img: "./images/projectsimg/tomato.png",
+      link: "https://tomatofooddeliveryy.netlify.app/",
+    },
   ];
   return (
     <>
