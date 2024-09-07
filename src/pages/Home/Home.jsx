@@ -14,7 +14,7 @@ const Home = () => {
             <h1 className="text-[4rem] md:text-[6rem] lg:text-[7rem] text-white ">
               Hii👋 I'm
               <span className="text-white"> Balwant</span>
-              <br />a Web Developer
+              <br />a ReactJs Developer
             </h1>
           </div>
         </div>

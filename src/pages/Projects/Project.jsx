@@ -14,7 +14,7 @@ const Project = () => {
       name: "Laelko",
       desc: "Landing page",
       img: "./images/projectsimg/laelkobannerss.png",
-      link: "https://www.laelko.com/",
+      link: "https://laelko.com/furniture/",
     },
     {
       name: "Myntra Clone",

@@ -18,7 +18,45 @@ const Resume = () => {
             ume
           </h1>
 
-          <div id="eduaction">
+          <div id="experinece" className="">
+            <span className="flex ml-6 md:ml-20 gap-4 items-center">
+              <BookOpen size={40} color="#0443F2" />
+              <h1 className="text-3xl text-white">Experience</h1>
+            </span>
+            <div id="openleaf" className="ml-[6rem] md:ml-[8.5rem] mt-4">
+              <ul className="list-disc  text-white">
+                <li>
+                  <h1 className="text-xl text-white">
+                    FynTune Solution Private Limited
+                  </h1>
+                </li>
+              </ul>
+              <p className="text-white my-2">ReactJs Developer</p>
+              <p className="text-white text-sm">09/2024 - Present</p>
+            </div>
+            <div id="openleaf" className="ml-[6rem] md:ml-[8.5rem] mt-4">
+              <ul className="list-disc  text-white">
+                <li>
+                  <h1 className="text-xl text-white">Openleaf</h1>
+                </li>
+              </ul>
+              <p className="text-white my-2">FrontEnd Developer Intern</p>
+              <p className="text-white text-sm">07/2024 - 08/2024</p>
+            </div>
+            <div id="agix" className="ml-[6rem] md:ml-[8.5rem] mt-4">
+              <ul className="list-disc  text-white">
+                <li>
+                  <h1 className="text-xl text-white">
+                    {" "}
+                    Agix International Pvt Ltd.
+                  </h1>
+                </li>
+              </ul>
+              <p className="text-white my-2">Web Developer Intern</p>
+              <p className="text-white text-sm">03/2024 - 06/2024</p>
+            </div>
+          </div>
+          <div id="eduaction" className="mt-16">
             <span className="flex ml-6 md:ml-20 gap-4 items-center">
               <GraduationCap size={40} color="#0443F2" />
               <h1 className="text-3xl text-white">Education</h1>
@@ -33,33 +71,6 @@ const Resume = () => {
                 </li>
               </ul>
               <p className="text-white text-sm">2019-2023</p>
-            </div>
-          </div>
-          <div id="experinece" className="mt-16">
-            <span className="flex ml-6 md:ml-20 gap-4 items-center">
-              <BookOpen size={40} color="#0443F2" />
-              <h1 className="text-3xl text-white">Experience</h1>
-            </span>
-            <div id="openleaf" className="ml-[6rem] md:ml-[8.5rem] mt-4">
-              <ul className="list-disc  text-white">
-                <li>
-                  <h1 className="text-xl text-white">Openleaf</h1>
-                </li>
-              </ul>
-              <p className="text-white my-2">FrontEnd Developer Intern</p>
-              <p className="text-white text-sm">07/2024 - Present</p>
-            </div>
-            <div id="agix" className="ml-[6rem] md:ml-[8.5rem] mt-4">
-              <ul className="list-disc  text-white">
-                <li>
-                  <h1 className="text-xl text-white">
-                    {" "}
-                    Agix International Pvt Ltd.
-                  </h1>
-                </li>
-              </ul>
-              <p className="text-white my-2">Web Developer Intern</p>
-              <p className="text-white text-sm">03/2024 - 06/2024</p>
             </div>
           </div>
           <div

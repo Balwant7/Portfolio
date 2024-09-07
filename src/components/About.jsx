@@ -1,8 +1,6 @@
-
-
 const About = () => {
   return (
-    <div id="about" className="px-4 md:px-10 mt-10 pb-[5rem] md:pb-[15rem]">
+    <div id="about" className="px-6 md:px-10 mt-10 pb-[5rem] md:pb-[15rem]">
       <div id="para" className="">
         <h1 className="text-white mb-5 text-[3rem] ">
           <span className=" underline underline-offset-8 decoration-[#0443F2] ">
@@ -11,16 +9,10 @@ const About = () => {
           me
         </h1>
         <p className="text-white text-[1.3rem] md:pr-10 lg:pr-24">
-          I'm a web developer with hands-on experience in React.js. I recently
-          completed a 3-month internship, where I contributed to building
-          dynamic and responsive web applications. <br />
-          What excites me the most about web development is the constant
-          evolution and innovation within the field. I am always eager to learn
-          new frameworks, improve my coding practices, and stay updated with the
-          latest industry trends. My goal is to continuously grow as a developer
-          and contribute to projects that make a positive impact.
-          <br /> Outside of coding, I enjoy playing games. Feel free to reach
-          me.
+          I am a passionate React.js developer with hands-on experience in
+          building dynamic and responsive web applications. Currently, I am
+          working as a React.js Developer at FynTune Solution, where I focus on
+          delivering seamless and efficient user interfaces.
         </p>
       </div>
       <div id="whatIdo" className="mt-20">
