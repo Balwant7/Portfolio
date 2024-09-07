@@ -100,7 +100,7 @@ const Resume = () => {
         </div>
 
         <button className="text-white bg-[#0443F2] px-4 py-3 mt-16 rounded-lg active:bg-[#203777]">
-          <a href="./Balwant_Singh_IntResume.pdf" download="Balwant's resume">
+          <a href="./Balwant_Singh_Resume.pdf" download="Balwant's resume">
             Download Resume
           </a>
         </button>
