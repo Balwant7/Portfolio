@@ -11,7 +11,7 @@ const Footer = () => {
         </div>
       </div>
       <div
-        className="bg-black flex p-4 lg:p-8 pt-12 justify-between items-center flex-wrap"
+        className="bg-black flex lg:p-8 pt-12 justify-center md:justify-between items-center flex-wrap"
         id="footer_social"
       >
         <div className="flex gap-8 justify-evenly items-center flex-wrap">
@@ -24,8 +24,8 @@ const Footer = () => {
             <button className="">Linkedln</button>
           </Link>
         </div>
-        <div className="mt-6">
-          <p className="text-white text-sm">
+        <div className="mt-8">
+          <p className="text-white text-xs">
             Designed and Developed by Balwant Singh
           </p>
         </div>
