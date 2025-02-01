@@ -99,7 +99,7 @@ const Resume = () => {
           </div>
         </div>
 
-        <button className="text-white bg-[#0443F2] px-4 py-3 mt-16 rounded-lg active:bg-[#203777]">
+        <button className="text-white bg-[#0443F2] px-4 py-3 mt-16 rounded-full active:bg-[#203777] hover:bg-blue-800">
           <a href="./Balwant_Singh_Resume.pdf" download="Balwant's resume">
             Download Resume
           </a>

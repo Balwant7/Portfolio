@@ -18,7 +18,7 @@ const Cursor = () => {
   return (
     <div
       ref={cr}
-      className="hidden lg:block cursor fixed h-4 w-4 bg-white z-[100000] border rounded-[50%] mix-blend-difference"
+      className="hidden lg:block cursor fixed h-5 w-5 bg-white z-[100000] border rounded-[50%] mix-blend-difference"
     ></div>
   );
 };

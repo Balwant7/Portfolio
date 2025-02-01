@@ -39,7 +39,7 @@ a {
   height: 100%;
   width: 100%;
   position: absolute;
-  background-color: black;
+  background-color: #0443f2;
   left: 0%;
   bottom: -100%;
   transition: 0.3s all ease;
