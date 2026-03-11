@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900 */
-
 * {
   margin: 0px;
   padding: 0px;
@@ -13,50 +10,26 @@
   font-weight: 500;
   font-style: normal;
 }
+
 a {
   text-decoration: none !important;
 }
 
-#home div h1 {
-  /* -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: rgb(206, 75, 206); */
-}
-#footer_social > div > a {
-  padding: 15px 25px;
-  font-size: 18px;
-  border: 1px solid rgba(0, 0, 0, 0.178);
-  border-radius: 50px;
-  color: rgba(0, 0, 0, 0.842);
-  background-color: white;
-  text-decoration: none;
-  z-index: 9;
-  position: relative;
-  overflow: hidden;
-  font-weight: 500;
-}
-#footer_social > div > a::after {
-  content: "";
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  background-color: #0443f2;
-  left: 0%;
-  bottom: -100%;
-  transition: 0.3s all ease;
-  border-radius: 50%;
-  z-index: -9;
+button,
+a {
+  cursor: pointer;
 }
 
-#footer_social > div > a:hover::after {
-  bottom: 0%;
-  border-radius: 0%;
+/* Contact page – links inside dark cards should default white */
+#contact-info a {
+  color: white;
+  transition: color 0.2s ease;
+}
+#contact-info a:hover {
+  color: #0443f2;
 }
 
-#footer_social > div > a:hover {
-  color: rgb(255, 255, 255);
-  z-index: 999;
-}
-
+/* Projects eye icon – show/hide */
 #projects #eyeicon {
   display: none;
 }
@@ -64,22 +37,15 @@ a {
   display: block;
   transition: all ease-in-out;
 }
-/* width */
+
+/* Smooth scrollbar */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
-
-/* Track */
-/* ::-webkit-scrollbar-track {
-  background: #0443f2;
-} */
-
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: #0443f2;
+  border-radius: 4px;
 }
-
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #021f6e;
 }

@@ -1,36 +1,42 @@
 const About = () => {
   return (
-    <div id="about" className="px-6 md:px-10 mt-10 pb-[5rem] md:pb-[15rem]">
-      <div id="para" className="">
-        <h1 className="text-white mb-5 text-[3rem] ">
-          <span className=" underline underline-offset-8 decoration-[#0443F2] ">
+    <div id="about" className="px-6 md:px-10 mt-10 pb-[5rem] md:pb-[10rem]">
+      {/* Intro paragraph */}
+      <div id="para">
+        <h1 className="text-white mb-5 text-[2.5rem] md:text-[3rem]">
+          <span className="underline underline-offset-8 decoration-[#0443F2]">
             About{" "}
           </span>
           me
         </h1>
-        <p className="text-white text-[1.3rem] md:pr-10 lg:pr-24">
+        <p className="text-white/80 text-lg md:text-[1.3rem] md:pr-10 lg:pr-24 leading-relaxed max-w-3xl">
           I am a passionate React.js developer with hands-on experience in
           building dynamic and responsive web applications. Currently, I am
           working as a React.js Developer at FynTune Solution, where I focus on
           delivering seamless and efficient user interfaces.
         </p>
       </div>
+
+      {/* What I do */}
       <div id="whatIdo" className="mt-20">
-        <h1 className="text-white text-3xl">What I'm doing</h1>
+        <h1 className="text-white text-2xl md:text-3xl mb-2">What I'm doing</h1>
+        <p className="text-white/50 text-sm mb-8">My current focus areas</p>
+
         <div
           id="sec"
-          className="flex justify-evenly items-center flex-wrap gap-4 mt-[4rem]"
+          className="flex justify-start lg:justify-evenly items-center flex-wrap gap-5 mt-4"
         >
+          {/* Web Development card */}
           <div
             id="webdevelopemnt"
-            className="bg-[#3D3D3D] rounded-lg p-7 flex gap-5 items-center justify-center w-[40rem] h-[8rem] "
+            className="bg-[#3D3D3D] rounded-xl p-7 flex gap-5 items-center w-full max-w-[38rem] min-h-[8rem] hover:scale-[1.02] hover:bg-[#4a4a4a] transition-all duration-300 shadow-lg"
           >
-            <span>
+            <span className="shrink-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
-                width={60}
-                height={60}
+                width={50}
+                height={50}
                 color={"#0443F2"}
                 fill={"none"}
               >
@@ -85,21 +91,23 @@ const About = () => {
               <h2 className="text-white text-xl font-bold mb-2">
                 Web Development
               </h2>
-              <p className="text-white">
+              <p className="text-white/70 text-sm leading-relaxed">
                 High-quality development of sites at professional level.
               </p>
             </div>
           </div>
+
+          {/* Web Design card */}
           <div
             id="websitedesign"
-            className="text-white bg-[#3D3D3D] rounded-lg p-7 flex gap-5 items-center justify-center w-[40rem] h-[8rem]"
+            className="text-white bg-[#3D3D3D] rounded-xl p-7 flex gap-5 items-center w-full max-w-[38rem] min-h-[8rem] hover:scale-[1.02] hover:bg-[#4a4a4a] transition-all duration-300 shadow-lg"
           >
-            <span>
+            <span className="shrink-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
-                width={60}
-                height={60}
+                width={50}
+                height={50}
                 color={"#0443F2"}
                 fill={"none"}
               >
@@ -142,9 +150,9 @@ const About = () => {
                 />
               </svg>
             </span>
-            <div className="">
+            <div>
               <h2 className="text-white text-xl font-bold mb-2">Web Design</h2>
-              <p className="text-white">
+              <p className="text-white/70 text-sm leading-relaxed">
                 The most modern and high quality design made at a professional
                 level.
               </p>

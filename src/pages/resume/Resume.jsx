@@ -1,109 +1,109 @@
-import { GraduationCap, BookOpen } from "lucide-react";
+import { GraduationCap, BookOpen, Download } from "lucide-react";
+
+const skills = [
+  { label: "FrontEnd Development", pct: "85%" },
+  { label: "Backend Development", pct: "70%" },
+  { label: "Database", pct: "60%" },
+];
+
+const TimelineItem = ({ title, role, date }) => (
+  <div className="relative pl-6 border-l-2 border-[#0443F2]/40 ml-8 md:ml-20 mt-5">
+    <span className="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-[#0443F2]" />
+    <h3 className="text-lg md:text-xl text-white font-semibold">{title}</h3>
+    <p className="text-white/70 text-sm mt-1">{role}</p>
+    <p className="text-white/40 text-xs mt-1">{date}</p>
+  </div>
+);
 
 const Resume = () => {
   return (
     <>
       <div
         id="resume"
-        className="bg-black w-full flex-col  flex items-center justify-center pt-16 pb-24"
+        className="bg-black w-full flex-col flex items-center justify-center pt-16 pb-24"
       >
         <div
           id="resumewrapper"
-          className="bg-[#3D3D3D] w-[90%] rounded-lg pb-10"
+          className="bg-[#3D3D3D] w-[90%] rounded-xl pb-10"
         >
           <h1 className="text-white mb-5 text-[3rem] p-8 md:pl-12">
-            <span className=" underline underline-offset-8 decoration-[#0443F2] ">
+            <span className="underline underline-offset-8 decoration-[#0443F2]">
               Res
             </span>
             ume
           </h1>
 
-          <div id="experinece" className="">
-            <span className="flex ml-6 md:ml-20 gap-4 items-center">
-              <BookOpen size={40} color="#0443F2" />
-              <h1 className="text-3xl text-white">Experience</h1>
+          {/* Experience */}
+          <div id="experience" className="mt-2">
+            <span className="flex ml-6 md:ml-12 gap-4 items-center">
+              <BookOpen size={36} color="#0443F2" />
+              <h2 className="text-2xl md:text-3xl text-white">Experience</h2>
             </span>
-            <div id="openleaf" className="ml-[6rem] md:ml-[8.5rem] mt-4">
-              <ul className="list-disc  text-white">
-                <li>
-                  <h1 className="text-xl text-white">
-                    FynTune Solution Private Limited
-                  </h1>
-                </li>
-              </ul>
-              <p className="text-white my-2">ReactJs Developer</p>
-              <p className="text-white text-sm">09/2024 - Present</p>
-            </div>
-            <div id="openleaf" className="ml-[6rem] md:ml-[8.5rem] mt-4">
-              <ul className="list-disc  text-white">
-                <li>
-                  <h1 className="text-xl text-white">Openleaf</h1>
-                </li>
-              </ul>
-              <p className="text-white my-2">FrontEnd Developer Intern</p>
-              <p className="text-white text-sm">07/2024 - 08/2024</p>
-            </div>
-            <div id="agix" className="ml-[6rem] md:ml-[8.5rem] mt-4">
-              <ul className="list-disc  text-white">
-                <li>
-                  <h1 className="text-xl text-white">
-                    {" "}
-                    Agix International Pvt Ltd.
-                  </h1>
-                </li>
-              </ul>
-              <p className="text-white my-2">Web Developer Intern</p>
-              <p className="text-white text-sm">03/2024 - 06/2024</p>
-            </div>
+
+            <TimelineItem
+              title="FynTune Solution Private Limited"
+              role="ReactJs Developer"
+              date="09/2024 – Present"
+            />
+            <TimelineItem
+              title="Openleaf"
+              role="FrontEnd Developer Intern"
+              date="07/2024 – 08/2024"
+            />
+            <TimelineItem
+              title="Agix International Pvt Ltd."
+              role="Web Developer Intern"
+              date="03/2024 – 06/2024"
+            />
           </div>
-          <div id="eduaction" className="mt-16">
-            <span className="flex ml-6 md:ml-20 gap-4 items-center">
-              <GraduationCap size={40} color="#0443F2" />
-              <h1 className="text-3xl text-white">Education</h1>
+
+          {/* Education */}
+          <div id="education" className="mt-14">
+            <span className="flex ml-6 md:ml-12 gap-4 items-center">
+              <GraduationCap size={36} color="#0443F2" />
+              <h2 className="text-2xl md:text-3xl text-white">Education</h2>
             </span>
-            <div id="graduation" className="ml-[6rem] md:ml-[8.5rem] mt-4">
-              <ul className="list-disc  text-white">
-                <li>
-                  <h1 className="text-xl text-white">
-                    {" "}
-                    Bachelor of Engineering (Mumbai University)
-                  </h1>
-                </li>
-              </ul>
-              <p className="text-white text-sm">2019-2023</p>
-            </div>
+
+            <TimelineItem
+              title="Bachelor of Engineering (Mumbai University)"
+              role="Computer Engineering"
+              date="2019 – 2023"
+            />
           </div>
-          <div
-            id="skills"
-            className="w-full ml-[1rem] md:ml-[4.5rem] mt-[4rem]"
-          >
-            <h1 className="text-white text-[2rem]">My Skills</h1>
-            <div className="w-[90%] mt-7">
-              <h2 className="text-white mb-2">FrontEnd Development</h2>
-              <div className="w-full rounded-lg h-3 bg-white">
-                <div className="w-[85%] h-3 bg-[#0443F2] rounded-lg"></div>
-              </div>
-            </div>
-            <div className="w-[90%] mt-7">
-              <h2 className="text-white mb-2">Backend Development</h2>
-              <div className="w-full rounded-lg h-3 bg-white">
-                <div className="w-[70%] h-3 bg-[#0443F2] rounded-lg"></div>
-              </div>
-            </div>
-            <div className="w-[90%] mt-7">
-              <h2 className="text-white mb-2">Data base</h2>
-              <div className="w-full rounded-lg h-3 bg-white">
-                <div className="w-[60%] h-3 bg-[#0443F2] rounded-lg"></div>
-              </div>
+
+          {/* Skills */}
+          <div id="skills" className="w-full px-8 md:px-16 mt-14">
+            <h2 className="text-white text-2xl md:text-[2rem] mb-6">
+              My Skills
+            </h2>
+            <div className="flex flex-col gap-6">
+              {skills.map(({ label, pct }) => (
+                <div key={label}>
+                  <div className="flex justify-between mb-2">
+                    <span className="text-white text-sm md:text-base">{label}</span>
+                    <span className="text-white/50 text-sm">{pct}</span>
+                  </div>
+                  <div className="w-full rounded-full h-2.5 bg-white/10">
+                    <div
+                      className="h-2.5 bg-[#0443F2] rounded-full"
+                      style={{ width: pct }}
+                    />
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
 
-        <button className="text-white bg-[#0443F2] px-4 py-3 mt-16 rounded-full active:bg-[#203777] hover:bg-blue-800">
-          <a href="./Balwant_Singh_Resume.pdf" download="Balwant's resume">
-            Download Resume
-          </a>
-        </button>
+        {/* Download button */}
+        <a
+          href="./Balwant_Singh_Resume.pdf"
+          download="Balwant_Singh_Resume"
+          className="mt-12 inline-flex items-center gap-2 text-white bg-[#0443F2] px-7 py-3.5 rounded-full font-medium hover:bg-blue-700 active:bg-[#021f6e] transition-colors duration-200 shadow-lg shadow-blue-900/30"
+        >
+          <Download size={18} />
+          Download Resume
+        </a>
       </div>
     </>
   );

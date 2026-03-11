@@ -7,17 +7,28 @@ const Home = () => {
     <>
       <div id="hoemwrap" className="bg-black">
         <div className="relative" id="home">
-          <div className="bg-black w-full h-[85vh] " id="spline">
+          {/* Spline 3D scene */}
+          <div className="bg-black w-full h-[85vh]" id="spline">
             <Spline scene="https://prod.spline.design/ItsTVJmUbwwDUhR0/scene.splinecode" />
           </div>
-          <div className=" absolute top-[22%] md:top-[15%] lg:top-[30%] left-[14%] md:left-[25%]">
-            <h1 className="text-[4rem] md:text-[6rem] lg:text-[7rem] text-white ">
+
+          {/* Dark gradient overlay so text is always readable */}
+          <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/30 to-transparent pointer-events-none" />
+
+          {/* Hero text */}
+          <div className="absolute top-1/4 left-6 sm:left-12 md:left-[8%] lg:left-[14%] max-w-[90%] md:max-w-[60%]">
+            <h1 className="text-[2.8rem] sm:text-[4rem] md:text-[5rem] lg:text-[7rem] text-white leading-tight">
               Hii👋 I'm
-              <span className="text-white"> Balwant</span>
-              <br />a ReactJs Developer
+              <br />
+              <span className="text-[#0443F2]">Balwant</span>
+              <br />
+              <span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light text-white/80">
+                a ReactJs Developer
+              </span>
             </h1>
           </div>
         </div>
+
         <About />
       </div>
     </>
