@@ -22,7 +22,7 @@ const Home = () => {
               <span className="text-[#0443F2]">Balwant</span>
               <br />
               <span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light text-white/80">
-                a Frontend Developer
+                A Frontend Developer
               </span>
             </h1>
           </div>
